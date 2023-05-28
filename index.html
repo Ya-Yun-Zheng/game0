@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - 永續家園實踐家</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- Navbar -->
+  <nav class="navbar navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand mb-0 h1">國家版圖</a>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="國家名" aria-label="Search">
+      </form>
+    </div>
+  </nav>
+</head>
+
+<body>
+  <div id="data-panel" class="flex_container d-flex justify-content-center wrap">
+
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div>
+          <!-- 第一張卡片 -->
+          <!-- 行動數 -->
+          <div id="action-data-panel" class="card text-white bg-danger mb-3 mt-3 ms-2" style="min-width: 15rem;">
+            <div class="card-header text-center">
+              <img class="society-img" src="https://gec.ntut.edu.tw/var/file/21/1021/pictures/475/m/mczh-tw1190x760_small118913_460094107092.jpg" alt="" style="max-width: 6rem">
+            </div>
+            <div class="card-body text-center">
+              <h5 class="card-title">行動數</h5>
+              <td><span style="font-size: 40px" class="text-danger">#</span><br>
+                <i class="fa fa-plus-circle up" style="font-size:40px" aria-hidden="true"></i>
+                <i class="fa fa-minus-circle down" style="font-size:40px" aria-hidden="true"></i>
+              </td>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <!-- 第二張卡片 -->
+        <!-- 經濟 -->
+        <div class="card text-white bg-secondary mb-3 mt-3 ms-2" style="min-width: 15rem;">
+          <div class="card-header text-center">
+            <img class="economy-img" src="https://img.ixintu.com/download/jpg/20201130/50699ff00e58c6b8f2b2b69fecb78fb8_512_512.jpg!bg" alt="" style="max-width: 6rem">
+            <!--             <img class="economy-img" src="https://ncsd.ndc.gov.tw/Fore/img/E_SDG_Icons-08.jpg" alt="" style="max-width: 6rem"> -->
+          </div>
+          <div class="card-body text-center">
+            <h5 class="card-title">經濟</h5>
+            <td><span style="font-size: 40px">0</span><br>
+              <i class="fa fa-plus-circle up" style="font-size:40px" aria-hidden="true"></i>
+              <i class="fa fa-minus-circle down" style="font-size:40px" aria-hidden="true"></i>
+            </td>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <!-- 第三張卡片 -->
+        <!-- 環境 -->
+        <div class="card text-white bg-success mb-3 mt-3 ms-2" style="min-width: 15rem;">
+          <div class="card-header text-center">
+            <img class="environment-img" src="https://gec.ntut.edu.tw/var/file/21/1021/pictures/607/m/mczh-tw1190x760_small118903_315824984520.jpg" alt="" style="max-width: 6rem">
+          </div>
+          <div class="card-body text-center">
+            <h5 class="card-title">環境</h5>
+            <td><span style="font-size: 40px">0</span><br>
+              <i class="fa fa-plus-circle up" style="font-size:40px" aria-hidden="true"></i>
+              <i class="fa fa-minus-circle down" style="font-size:40px" aria-hidden="true"></i>
+            </td>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <!-- 第四張卡片 -->
+        <!-- 社會 -->
+        <div class="card text-white bg-danger mb-3 mt-3 ms-2" style="min-width: 15rem;">
+          <div class="card-header text-center">
+            <img class="society-img" src="https://gec.ntut.edu.tw/var/file/21/1021/pictures/475/m/mczh-tw1190x760_small118913_460094107092.jpg" alt="" style="max-width: 6rem">
+          </div>
+          <div class="card-body text-center">
+            <h5 class="card-title">社會</h5>
+            <td><span style="font-size: 40px">0</span><br>
+              <i class="fa fa-plus-circle up" style="font-size:40px" aria-hidden="true"></i>
+              <i class="fa fa-minus-circle down" style="font-size:40px" aria-hidden="true"></i>
+            </td>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <!-- 第五張卡片 -->
+        <!-- 治理 -->
+        <div class="card text-white bg-warning mb-3 mt-3 ms-2" style="min-width: 15rem;">
+          <div class="card-header text-center">
+            <img class="governance-img" src="https://images.freeimages.com/cme/images/istock/previews/9353/93534499-auction-hammer-icon-law-judge-gavel-symbol.jpg" alt="" style="max-width: 6rem">
+          </div>
+          <div class="card-body text-center">
+            <h5 class="card-title">治理</h5>
+            <td><span style="font-size: 40px">0</span><br>
+              <i class="fa fa-plus-circle up" style="font-size:40px" aria-hidden="true"></i>
+              <i class="fa fa-minus-circle down" style="font-size:40px" aria-hidden="true"></i>
+            </td>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <!-- 第六張卡片 -->
+        <!-- 夥伴 -->
+        <div class="card text-white bg-primary mb-3 mt-3 ms-2" style="min-width: 15rem;">
+          <div class="card-header text-center">
+            <img class="partner-img" src="https://static.vecteezy.com/system/resources/previews/000/349/392/non_2x/handshake-vector-icon.jpg" alt="" style="max-width: 6rem">
+          </div>
+          <div class="card-body text-center">
+            <h5 class="card-title">夥伴</h5>
+            <td><span style="font-size: 40px">0</span><br>
+              <i class="fa fa-plus-circle up" style="font-size:40px" aria-hidden="true"></i>
+              <i class="fa fa-minus-circle down" style="font-size:40px" aria-hidden="true"></i>
+            </td>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <!-- 第七張卡片 -->
+      <!--   回合收入 -->
+      <div class="d-flex justify-content-center text-dark bg-light mb-3 mt-3" style="min-width: 30rem;">
+        <div class="card-header text-center">
+          <img class="income-img" src="https://img.ixintu.com/download/jpg/20201128/37f1bac7810cee48c3df9a9c40bee82f_512_512.jpg!con" alt="" style="max-width: 6rem">
+        </div>
+        <div class="card-body text-center">
+          <h5 class="card-title">回合收入</h5>
+          <td><span style="font-size: 50px">0</span><br>
+            <i class="fa fa-plus-circle up" style="font-size:40px" aria-hidden="true"></i>
+            <i class="fa fa-minus-circle down" style="font-size:40px" aria-hidden="true"></i>
+          </td>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</body>
+
+</html>
+<!-- partial -->
+  <script src='https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js'></script>
+<script src='https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
